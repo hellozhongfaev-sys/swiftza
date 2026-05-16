@@ -1,0 +1,13 @@
+import '@tailwindcss/forms';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-colors;
+}
+
+html {
+  scroll-behavior: smooth;
+}
